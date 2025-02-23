@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+    font-family: 'Sono', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px;
+}
+
+/* Header */
+.header-container {
+    background-color: #004f34;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 100px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.second-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #eef6f2;
+}
+
+.second-container img {
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #004f34;
+}
+
+.description {
+    font-size: 18px;
+    color: #555;
+    margin: 20px 0;
+}
+
+.plan-button {
+    background-color: #ff9800;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.plan-button:hover {
+    background-color: #e68900;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+#about-us {
+    font-size: 32px;
+    color: #004f34;
+    font-weight: 700;
+}
+
+#about-paragraph {
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+}
+
+/* Services */
+.services {
+    padding: 50px;
+    background-color: #eef6f2;
+    text-align: center;
+}
+
+.service-types {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.service-types div {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+hr {
+    width: 50px;
+    border: 2px solid #004f34;
+}
+
+#truck {
+    width: 100%;
+    height: 600px;
+}
+
+#icons {
+    width: 100px;
+}
+
+#gif {
+    width: 100%;
+    height: 500px;
+}
+
+/* Footer */
+footer {
+    background-color: #004f34;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
